@@ -18,3 +18,8 @@ def test_three_grades():
 	# Test for 3 grades
 	grades = [2,4,6]
 	assert compute_hw_average(grades) == 4
+
+def test_floating_point():
+	# Test for 3 grades
+	grades = [1.0,2.0,3.0]
+	assert compute_hw_average(grades) == 2.0
